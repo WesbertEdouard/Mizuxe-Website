@@ -36,8 +36,15 @@ bodyy {
     margin-top: 180px;
 }
 
+.info-header {
+    width: 50%;
+    margin: auto;
+    border-bottom: 1px solid #ddd;
+}
 
-
+.card-header:hover {
+    cursor: pointer;
+}
 @media(max-width:768px){
     #showcase {
         min-height: 500px;
